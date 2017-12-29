@@ -12,7 +12,7 @@
 		48190B801FF64D9600759C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48190B7E1FF64D9600759C7B /* Main.storyboard */; };
 		48190B821FF64D9600759C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48190B811FF64D9600759C7B /* Assets.xcassets */; };
 		48190B851FF64D9600759C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48190B831FF64D9600759C7B /* LaunchScreen.storyboard */; };
-		48190B8D1FF652CF00759C7B /* ParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48190B8C1FF652CF00759C7B /* ParallaxViewController.swift */; };
+		48190B8F1FF65E4000759C7B /* ParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48190B8E1FF65E4000759C7B /* ParallaxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		48190B811FF64D9600759C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48190B841FF64D9600759C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48190B861FF64D9600759C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48190B8C1FF652CF00759C7B /* ParallaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParallaxViewController.swift; path = ../../Parallex/Parallex/ParallaxViewController.swift; sourceTree = "<group>"; };
+		48190B8E1FF65E4000759C7B /* ParallaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		48190B791FF64D9600759C7B /* Parallax */ = {
 			isa = PBXGroup;
 			children = (
-				48190B8C1FF652CF00759C7B /* ParallaxViewController.swift */,
+				48190B8E1FF65E4000759C7B /* ParallaxViewController.swift */,
 				48190B7A1FF64D9600759C7B /* AppDelegate.swift */,
 				48190B7C1FF64D9600759C7B /* ViewController.swift */,
 				48190B7E1FF64D9600759C7B /* Main.storyboard */,
@@ -140,8 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				48190B7D1FF64D9600759C7B /* ViewController.swift in Sources */,
-				48190B8D1FF652CF00759C7B /* ParallaxViewController.swift in Sources */,
 				48190B7B1FF64D9600759C7B /* AppDelegate.swift in Sources */,
+				48190B8F1FF65E4000759C7B /* ParallaxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
